@@ -1,13 +1,51 @@
-h1 {
+
+.body{
+    background-color: #dbffde;
+    margin: 0px;
+}
+
+
+#nav {
+    -webkit-box-sizing: border-box;
+    background-color: #fde8ff;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    box-shadow: 5px 0px 40px 0px #124d18;
+
+
+  
+  
+  }
+  #img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+      
+  }
+  
+  #title {
+    -webkit-box-sizing: border-box;
     color:yellow;
     -webkit-text-stroke: 1px blue;
     -webkit-text-stroke: 1px #3FF3FF;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
-    font-size: 75px;
+    font-size: 30px;    
 }
-.cat-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+
+#container {
+    display: flex;
+}
+
+#text {
+    font-family: 'Markazi Text', serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
