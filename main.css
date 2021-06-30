@@ -5,6 +5,17 @@
 }
 
 
+
+@media only screen and (max-width: 600px) {
+  #title {
+    color: black;
+  }
+  #nav {
+  }
+
+
+
+}
 #nav {
     -webkit-box-sizing: border-box;
     background-color: #fde8ff;
@@ -13,10 +24,6 @@
     font-family: 'Press Start 2P', cursive;
     font-size: 25px;
     box-shadow: 5px 0px 40px 0px #124d18;
-
-
-  
-  
   }
   #img {
     display: block;
