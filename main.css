@@ -27,7 +27,8 @@
   -webkit-text-stroke: 1px #3FF3FF;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
-  font-size: 50px;    
+  font-size: 50px; 
+   
 }
 
 
@@ -50,13 +51,27 @@ img {
 }
 
 #text { 
-  font-family: 'Markazi Text', serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 30px;
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 50px;
 }
-#blog-body {
-  
+.blog-body {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+}
+
+.blog-post {
+  margin: 60px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 2px;
+  background-color: #fde8ff;
+  padding: 25px;
+  box-shadow: 0px 0px 20px 0px #124d18;
+
 }
