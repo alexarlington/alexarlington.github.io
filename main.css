@@ -4,7 +4,6 @@
   margin: 0px;
   font-size: 16px;
 }
-
 .nav {
   -webkit-box-sizing: border-box;
   position: -webkit-sticky;
@@ -17,6 +16,10 @@
   font-size: 15px;
   box-shadow: 5px 0px 40px 0px #124d18;
   }
+.nav-items{
+  padding-left: 30px;
+    padding-right: 30px;
+  }
  
 
 .title {
@@ -27,8 +30,17 @@
   -webkit-text-stroke: 1px #3FF3FF;
   text-align: center;
   font-family: 'Press Start 2P', cursive;
-  font-size: 50px; 
-   
+  font-size: 50px;  
+}
+.subtitle {
+  margin-top: 80px;
+  -webkit-box-sizing: border-box;
+  color:yellow;
+  -webkit-text-stroke: 1px blue;
+  -webkit-text-stroke: 1px #3FF3FF;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
 }
 
 
@@ -44,11 +56,10 @@
   left: 5px;
   margin-left: auto;
   margin-right: auto;
-}
-img {
   width: 300px;
   height: 300px;
 }
+
 
 #text { 
   font-family: 'Josefin Sans', sans-serif;
@@ -60,7 +71,7 @@ img {
 }
 .blog-body {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-left: 300px;
   margin-right: 300px;
   margin-bottom: 50px;
@@ -71,7 +82,50 @@ img {
   font-family: 'Josefin Sans', sans-serif;
   letter-spacing: 2px;
   background-color: #fde8ff;
-  padding: 25px;
+  padding: 20px;
   box-shadow: 0px 0px 20px 0px #124d18;
+}
+#back {
+  -webkit-box-sizing: border-box;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: #fde8ff;
+  padding: 25px;
+  text-align: left;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  box-shadow: 5px 0px 40px 0px #124d18;
+}
 
+main{
+  /* background-color: white;
+  box-shadow: 0px 0px 20px 0px #124d18; */
+  padding: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 0px;
+}
+h2 {
+  color: #124d18;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 10px;
+  /* margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px; */
+}
+
+p{
+  color: #124d18;
+  font-family: 'Josefin Sans', sans-serif;
+  /* margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px; */
+  padding: 10px;
+  font-size: 23px;
+  text-align: center;
+  line-height: 35px;
 }
