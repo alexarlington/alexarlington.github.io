@@ -20,7 +20,13 @@
   padding-left: 30px;
   padding-right: 30px;
   }
+  a{
+    color: #124d18;
+  }
  
+footer {
+  padding: 80px;
+}
 
 .title {
   top: 30px;
