@@ -19,9 +19,15 @@
 .nav-items{
   padding-left: 30px;
   padding-right: 30px;
+  font-family: 'Press Start 2P', cursive;
+
   }
   a{
     color: #124d18;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    /* padding: 10px;
+    font-size: 20px; */
   }
  
 footer {
@@ -57,6 +63,7 @@ footer {
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   font-size: 20px;
+  letter-spacing: 10px;
 }
 
 
@@ -143,6 +150,23 @@ h2 {
   text-align: center;
   line-height: 35px;
 }
+
+
+.list {
+  color: #124d18;
+  margin-top: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  /* padding: 10px; */
+  font-size: 20px;
+  /* text-align: left; */
+  border-style: solid;
+  border-color: #124d18;
+  text-align: center;
+  line-height: 35px;
+
+}
+
+
 #mbpimg {
   display: block;
   margin-left: auto;
