@@ -129,6 +129,12 @@ main{
   margin-right: 300px;
   margin-bottom: 0px;
 }
+
+.blogmain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 h2 {
   color: #124d18;
   font-size: 30px;
@@ -171,12 +177,19 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 250px;
-  /* border-style: solid;
+height: 250px; 
+ /* border-style: solid;
   border-color: #124d18; */
 
-
 }
+
+#jsimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+width: 600px; /* border-style: solid;
+  border-color: #124d18; */
+
 dt{
   text-decoration: underline;
   color: #124d18;
@@ -186,6 +199,6 @@ dt{
   text-align: center;
   line-height: 35px;
 }
-dd {
-
+.blogimg {
+width: 400px;
 }
