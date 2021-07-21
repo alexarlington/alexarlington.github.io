@@ -157,6 +157,15 @@ h2 {
   line-height: 35px;
 }
 
+dt {
+  color: #124d18;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+  text-decoration: underline;
+}
 
 .list {
   color: #124d18;
